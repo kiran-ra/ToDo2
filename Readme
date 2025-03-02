@@ -1,0 +1,14 @@
+ToDo App CRUD is bult by using following technology
+1)HTML
+2)CSS
+3)JAVASCRIPT
+
+Features of this application
+1)Both Dark and Light Mode
+2)create,read,update and delete features
+3)custom progress bar
+4)Paper blast effect
+
+Points to remember
+1)Paper blast effect : visit confetti website
+2)Root block{} and white-theam block{} and in javascript document.body.classList.contains('white-theam').
