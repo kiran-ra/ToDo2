@@ -16,9 +16,9 @@ icon.onclick =()=>{
   console.log(icon);
   document.body.classList.toggle('white-theam');
   if(document.body.classList.contains('white-theam')){
-    icon.src="./moon.png";
+    icon.src="./images/moon.png";
   }else{
-    icon.src="./sun.png";
+    icon.src="./images/sun.png";
   }
   console.log(icon);
 }
@@ -94,8 +94,8 @@ const updateTaskList = ()=>{
         <p>${task.text}</p>
         </div>
         <div class="icons">
-        <img src="./edit.png" onClick="editTask(${index})"/>
-        <img src="./bin.png" onClick="deleteTask(${index})"/>
+        <img src="./images/edit.png" onClick="editTask(${index})"/>
+        <img src="./images/bin.png" onClick="deleteTask(${index})"/>
         </div>
         </div>`;
         listItem.addEventListener('change',()=>toggleTaskComplete(index))
